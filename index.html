@@ -33,11 +33,12 @@
         <div class="bg-white/10 backdrop-blur-md p-6 rounded-3xl shadow-2xl">
             <div class="flex flex-col gap-6 items-center">
                 <div class="flex gap-6 items-center">
-                    <input id="color-input1"
-                        class="w-12 h-12 rounded-full border-none outline-none cursor-pointer shadow-md" type="color">
+
+                    <input id="color-input1" type="color" value="#000000"
+                        class="w-12 h-12 rounded-full border-2 border-gray-400 shadow cursor-pointer transition-all duration-200 hover:scale-110" />
                     <span class="text-lg font-semibold">to</span>
-                    <input id="color-input2"
-                        class="w-12 h-12 rounded-full border-none outline-none cursor-pointer shadow-md" type="color">
+                    <input id="color-input2" type="color" value="#ffffff"
+                        class="w-12 h-12 rounded-full border-2 border-gray-400 shadow cursor-pointer transition-all duration-200 hover:scale-110" />
                 </div>
                 <div class="flex flex-wrap justify-center gap-4">
                     <div data-dir="to top left"
@@ -99,7 +100,7 @@
 
             <div class="mt-10 text-center">
                 <h3 class="text-2xl font-bold mb-4">Gradient Preview</h3>
-                <div class="w-full h-48 rounded-3xl gradient-preview border-2 border-white/20"></div>
+                <div class="w-full h-48 rounded-3xl gradient-preview border-white/20"></div>
             </div>
         </div>
     </main>
