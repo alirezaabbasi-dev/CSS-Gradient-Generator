@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kiyan Css Gradient</title>
+    <link rel="icon" type="image/png" href="./src/img/fav-icon.png">
+    <link rel="stylesheet" href="./packages/wowJs/animate.min.css">
     <link rel="stylesheet" href="./src/styles/output.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
@@ -25,13 +27,13 @@
         </symbol>
     </svg>
 
-    <header class="text-center py-8">
+    <header class="text-center py-8 wow animate__animated animate__slideInDown">
         <h1 class="text-4xl font-extrabold text-white drop-shadow-xl">Kiyan CSS Gradient Generator</h1>
     </header>
 
-    <main class="container mx-auto px-4">
+    <main class="container mx-auto px-4 wow animate__animated animate__zoomInDownss">
         <div class="bg-white/10 backdrop-blur-md p-6 rounded-3xl shadow-2xl">
-            <div class="flex flex-col gap-6 items-center">
+            <div class="flex flex-col gap-6 items-center wow animate__animated   animate__slideInDown">
                 <div class="flex gap-6 items-center">
 
                     <input id="color-input1" type="color" value="#000000"
@@ -42,49 +44,49 @@
                 </div>
                 <div class="flex flex-wrap justify-center gap-4">
                     <div data-dir="to top left"
-                        class="arrow-component bg-slate-800 p-2 rounded-xl hover:bg-slate-600 transition cursor-pointer">
+                        class="arrow-component bg-slate-800 p-2 rounded-xl hover:bg-slate-600 transition cursor-pointer wow animate__animated animate__bounceInDown">
                         <svg class="svg-component rotate-90 w-6 h-6 text-white">
                             <use href="#arrow-down-left"></use>
                         </svg>
                     </div>
                     <div data-dir="to top right"
-                        class="arrow-component bg-slate-800 p-2 rounded-xl hover:bg-slate-600 transition cursor-pointer">
+                        class="arrow-component bg-slate-800 p-2 rounded-xl hover:bg-slate-600 transition cursor-pointer wow animate__animated animate__bounceInDown">
                         <svg class="svg-component rotate-180 w-6 h-6 text-white">
                             <use href="#arrow-down-left"></use>
                         </svg>
                     </div>
                     <div data-dir="to bottom left"
-                        class="arrow-component bg-slate-800 p-2 rounded-xl hover:bg-slate-600 transition cursor-pointer">
+                        class="arrow-component bg-slate-800 p-2 rounded-xl hover:bg-slate-600 transition cursor-pointer wow animate__animated animate__bounceInDown">
                         <svg class="svg-component w-6 h-6 text-white">
                             <use href="#arrow-down-left"></use>
                         </svg>
                     </div>
                     <div data-dir="to bottom right"
-                        class="arrow-component bg-slate-800 p-2 rounded-xl hover:bg-slate-600 transition cursor-pointer">
+                        class="arrow-component bg-slate-800 p-2 rounded-xl hover:bg-slate-600 transition cursor-pointer wow animate__animated animate__bounceInDown">
                         <svg class="svg-component rotate-270 w-6 h-6 text-white">
                             <use href="#arrow-down-left"></use>
                         </svg>
                     </div>
                     <div data-dir="to left"
-                        class="arrow-component bg-slate-800 p-2 rounded-xl hover:bg-slate-600 transition cursor-pointer">
+                        class="arrow-component bg-slate-800 p-2 rounded-xl hover:bg-slate-600 transition cursor-pointer wow animate__animated animate__bounceInDown">
                         <svg class="svg-component w-6 h-6 text-white">
                             <use href="#arrow-left"></use>
                         </svg>
                     </div>
                     <div data-dir="to right"
-                        class="arrow-component bg-slate-800 p-2 rounded-xl hover:bg-slate-600 transition cursor-pointer">
+                        class="arrow-component bg-slate-800 p-2 rounded-xl hover:bg-slate-600 transition cursor-pointer wow animate__animated animate__bounceInDown">
                         <svg class="svg-component rotate-180 w-6 h-6 text-white">
                             <use href="#arrow-left"></use>
                         </svg>
                     </div>
                     <div data-dir="to top"
-                        class="arrow-component bg-slate-800 p-2 rounded-xl hover:bg-slate-600 transition cursor-pointer">
+                        class="arrow-component bg-slate-800 p-2 rounded-xl hover:bg-slate-600 transition cursor-pointer wow animate__animated animate__bounceInDown">
                         <svg class="svg-component w-6 h-6 text-white">
                             <use href="#arrow-up"></use>
                         </svg>
                     </div>
                     <div data-dir="to bottom"
-                        class="arrow-component bg-slate-800 p-2 rounded-xl hover:bg-slate-600 transition cursor-pointer">
+                        class="arrow-component bg-slate-800 p-2 rounded-xl hover:bg-slate-600 transition cursor-pointer wow animate__animated animate__bounceInDown">
                         <svg class="svg-component rotate-180 w-6 h-6 text-white">
                             <use href="#arrow-up"></use>
                         </svg>
@@ -92,24 +94,28 @@
                 </div>
             </div>
 
-            <div class="bg-white/20 p-6 rounded-3xl mt-10 shadow-xl">
+            <div class="bg-white/20 p-6 rounded-3xl mt-10 shadow-xl wow animate__animated animate__zoomIn">
                 <h2 class="text-xl font-semibold text-center mb-4">CSS Output</h2>
                 <div id="preview-text" class="bg-slate-900 text-green-400 font-mono rounded-xl p-4 text-sm break-all">
                 </div>
             </div>
 
-            <div class="mt-10 text-center">
+            <div class="mt-10 text-center wow animate__animated animate__slideInUp">
                 <h3 class="text-2xl font-bold mb-4">Gradient Preview</h3>
                 <div class="w-full h-48 rounded-3xl gradient-preview border-white/20"></div>
             </div>
         </div>
     </main>
 
-    <footer class="text-center py-6 text-sm text-white/60 mt-10">
+    <footer class="text-center py-6 text-sm text-white/60 mt-10 wow animate__animated animate__slideInUp">
         &copy; 2025 Kiyan. All rights reserved.
     </footer>
 
     <script src="./src/scripts/app.js"></script>
+    <script src="./Packages/wowJS/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 
 </html>

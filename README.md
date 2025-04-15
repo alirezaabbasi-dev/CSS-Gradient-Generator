@@ -1,5 +1,7 @@
 # 🎨 Gradient Generator
 
+  <img src="./src/img/logo.png">
+
 A modern and interactive gradient background generator made with **HTML**, **TailwindCSS**, and **JavaScript**.  
 Users can select two colors, choose the gradient direction, and easily copy the resulting CSS code.
 
