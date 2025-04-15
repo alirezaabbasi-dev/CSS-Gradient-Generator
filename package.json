@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.4",
+    "tailwindcss": "^4.1.4"
+  },
+  "name": "kiyan-css-gradient",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx @tailwindcss/cli -i ./src/styles/input.css -o ./src/styles/output.css --minify --watch"
+  },
+  "keywords": [],
+  "author": "alirezaabbasi-dev",
+  "license": "ISC",
+  "description": ""
+}
