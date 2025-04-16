@@ -10,8 +10,8 @@
     .svg-component {
         @apply w-10 h-10 p-1.5;
     }
-    .arrow-component {
-        @apply bg-amber-900 text-white rounded-full hover:bg-amber-700;
+    .arrow-component.active {
+        @apply !bg-green-600;
     }
     .gradient-preview {
         background: #fff;
